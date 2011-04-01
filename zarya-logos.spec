@@ -3,8 +3,8 @@
 
 Name: zarya-logos
 Summary: Red Hat-related icons and pictures
-Version: 60.0.14
-Release: 2.el6.2.Z
+Version: 60.0.14.1
+Release: 1.el6.Z
 Group: System Environment/Base
 # No upstream, do in dist-cvs
 Source0: http://koji.russianfedora.ru/storage/zarya-logos/zarya-logos-%{version}.tar.bz2
@@ -194,6 +194,10 @@ fi
 # end i386 bits
 
 %changelog
+* Fri Mar  1 2011 Arkady L. Shane <ashejn@russianfedora.ru> 60.0.14.1-1.el6.Z
+- new vesa logo
+- update to 60.0.14.1
+
 * Fri Mar  1 2011 Arkady L. Shane <ashejn@russianfedora.ru> 60.0.14-2.el6.2.Z
 - added O and P redhat-logos
 
