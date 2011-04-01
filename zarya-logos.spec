@@ -4,7 +4,7 @@
 Name: zarya-logos
 Summary: Red Hat-related icons and pictures
 Version: 60.0.14
-Release: 1.el6.1.Z
+Release: 2.el6.1.Z
 Group: System Environment/Base
 # No upstream, do in dist-cvs
 Source0: http://koji.russianfedora.ru/storage/zarya-logos/zarya-logos-%{version}.tar.bz2
