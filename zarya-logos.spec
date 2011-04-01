@@ -4,7 +4,7 @@
 Name: zarya-logos
 Summary: Red Hat-related icons and pictures
 Version: 60.0.14
-Release: 2.el6.1.Z
+Release: 2.el6.2.Z
 Group: System Environment/Base
 # No upstream, do in dist-cvs
 Source0: http://koji.russianfedora.ru/storage/zarya-logos/zarya-logos-%{version}.tar.bz2
@@ -21,6 +21,9 @@ Conflicts: redhat-artwork <= 5.0.5
 Requires(post): coreutils
 # For _kde4_appsdir macro:
 BuildRequires: kde-filesystem
+
+Obsoletes: redhat-logos
+Provides: redhat-logos
 
 %description
 Licensed only for approved usage, see COPYING for details.
@@ -191,6 +194,9 @@ fi
 # end i386 bits
 
 %changelog
+* Fri Mar  1 2011 Arkady L. Shane <ashejn@russianfedora.ru> 60.0.14-2.el6.2.Z
+- added O and P redhat-logos
+
 * Fri Mar  1 2011 Arkady L. Shane <ashejn@russianfedora.ru> 60.0.14-2.el6.1.Z
 - new images for ZOS Zarya
 
